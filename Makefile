@@ -1,5 +1,5 @@
 #
-# Makefile fragment for Linux 2.6
+# Makefile fragment for Linux 2.6 and above
 # Broadcom 802.11abg Networking Device Driver
 #
 # Copyright (C) 2015, Broadcom Corporation. All Rights Reserved.
@@ -16,7 +16,7 @@
 # OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
 # CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 #
-# $Id: Makefile_kbuild_portsrc 580354 2015-08-18 23:42:37Z $ 
+# $Id: Makefile_kbuild_portsrc 580354 2015-08-18 23:42:37Z $
 
 ifneq ($(KERNELRELEASE),)
 
