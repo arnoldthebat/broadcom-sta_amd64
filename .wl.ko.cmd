@@ -1,0 +1,1 @@
+cmd_/home/tonyd/development/dev/broadcom-sta_amd64/wl.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/tonyd/development/dev/broadcom-sta_amd64/wl.ko /home/tonyd/development/dev/broadcom-sta_amd64/wl.o /home/tonyd/development/dev/broadcom-sta_amd64/wl.mod.o ;  true
