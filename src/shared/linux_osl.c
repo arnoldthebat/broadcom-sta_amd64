@@ -1072,7 +1072,7 @@ osl_os_open_image(char *filename)
 }
 
 int
-osl_os_get_image_block(char *buf, int len, void *image)
+osl_os_get_image_block(char *buf, long len, void *image)
 {
 	struct file *fp = (struct file *)image;
 	int rdlen;
@@ -1080,7 +1080,7 @@ osl_os_get_image_block(char *buf, int len, void *image)
 	if (!image)
 		return 0;
 
-	rdlen = kernel_read(fp, &fp->f_pos, buf, &len);
+	rdlen = kernel_read(fp, fp->f_pos, buf, len);
 	if (rdlen > 0)
 		fp->f_pos += rdlen;
 
