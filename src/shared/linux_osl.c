@@ -1074,7 +1074,7 @@ osl_os_open_image(char *filename)
 int
 osl_os_get_image_block(char *buf, int len, void *image)
 {
-	struct file *fp = (struct file *)image;
+	struct file *fp = (struct file *)&image;
 	int rdlen;
 
 	if (!image)
