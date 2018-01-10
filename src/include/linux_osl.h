@@ -24,7 +24,7 @@
 #include <typedefs.h>
 
 extern void * osl_os_open_image(char * filename);
-extern int osl_os_get_image_block(char * buf, long len, void * image);
+extern int osl_os_get_image_block(char * buf, loff_t * len, void * image);
 extern void osl_os_close_image(void * image);
 extern int osl_os_image_size(void *image);
 
