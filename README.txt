@@ -2,7 +2,7 @@
 DISCLAIMER
 ----------
 This is an unofficial Release of Broadcom's 64 bit hybrid Linux driver for use 
-with Broadcom based hardware.
+with Broadcom based hardware. It has been compiled against 4.14.x kernel only at the moment.
 
 SUPPORTED DEVICES
 -----------------
